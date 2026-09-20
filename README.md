@@ -90,6 +90,8 @@ Total Unproductive Jumps: 7
 
 <br/>
 
+---
+
 <br/>
 
 <img width="1270" height="655" alt="Image" src="https://github.com/user-attachments/assets/04db6655-dc92-4836-b4ec-926f408fdefd" />
