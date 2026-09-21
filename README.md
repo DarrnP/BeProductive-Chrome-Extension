@@ -124,6 +124,17 @@ backend/
 └── package-lock.json
 ```
 
+### Tests Covered
+
+The current test suite tests the following backend functionality:
+
+* **Invalid Session ID** – Verifies that requesting analytics for a non-existent session returns `Session not found`.
+* **Active Session Analytics** – Verifies that analytics cannot be requested while a session is still active and returns `Session did not end`.
+* **Session Creation** – Verifies that a new session is created with the correct:
+  * Session status
+  * Allowed/productive domains
+  * Session duration
+
 ## Use Cases
 
 * Students preparing for exams
