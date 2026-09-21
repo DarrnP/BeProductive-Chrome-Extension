@@ -144,9 +144,14 @@ app.get('/session/:id/analytics', (req: Request, res: Response) => {
 })
 
 
-app.listen(port,()=>{
-    console.log(`Server is running at http://127.0.0.1:${port}`);
-})
+/* For testing */
+if (require.main === module) {
+    app.listen(port, function () {
+        console.log("Server is running at http://127.0.0.1:" + port);
+    });
+}
+
+module.exports = app;
 
 
 

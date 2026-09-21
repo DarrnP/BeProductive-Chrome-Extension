@@ -122,6 +122,11 @@ app.get('/session/:id/analytics', function (req, res) {
         totalunproductiveVisits: totalunproductiveVisits
     });
 });
-app.listen(port, function () {
-    console.log("Server is running at http://127.0.0.1:".concat(port));
-});
+
+if (require.main === module) {
+    app.listen(port, function () {
+        console.log("Server is running at http://127.0.0.1:" + port);
+    });
+}
+
+module.exports = app;
