@@ -121,8 +121,8 @@ backend/
 ├── server.js
 ├── server.test.js <-test file
 ├── package.json
-└── package-lock.json```
-
+└── package-lock.json
+```
 
 ## Use Cases
 
