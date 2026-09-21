@@ -107,12 +107,12 @@ Once a session ends, BeProductive lets you export a clean, shareable PDF report 
 
 The backend uses Jest and Supertest for automated API testing.
 
-## Testing Tools
+### Testing Tools
 
 - **Jest** – Testing framework used to write and run backend tests.
 - **Supertest** – Used to send HTTP requests to the Express API and verify responses.
 
-## Test Setup
+### Test Setup
 
 The testing setup is located in the 'backend' folder:
 
@@ -121,7 +121,7 @@ backend/
 ├── server.js
 ├── server.test.js <-test file
 ├── package.json
-└── package-lock.json
+└── package-lock.json```
 
 
 ## Use Cases
