@@ -103,6 +103,26 @@ Once a session ends, BeProductive lets you export a clean, shareable PDF report 
 
 <img width="953" height="480" alt="Image" src="https://github.com/user-attachments/assets/8102e443-68df-4428-aba5-2154ee10645c" />
 
+## Testing
+
+The backend uses Jest and Supertest for automated API testing.
+
+## Testing Tools
+
+- **Jest** – Testing framework used to write and run backend tests.
+- **Supertest** – Used to send HTTP requests to the Express API and verify responses.
+
+## Test Setup
+
+The testing setup is located in the 'backend' folder:
+
+```text
+backend/
+├── server.js
+├── server.test.js <-test file
+├── package.json
+└── package-lock.json
+
 
 ## Use Cases
 
