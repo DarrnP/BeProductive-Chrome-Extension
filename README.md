@@ -135,6 +135,8 @@ The current test suite tests the following backend functionality:
   * Allowed/productive domains
   * Session duration
 
+<img width="823" height="264" alt="Image" src="https://github.com/user-attachments/assets/872556db-e938-4f5e-9bb0-16f611ddcb7c" />
+
 ## Use Cases
 
 * Students preparing for exams
